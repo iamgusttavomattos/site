@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Fake</title>
+<style>
+  body {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .video-wrapper {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .video-wrapper img {
+    width: 320px;
+    height: auto;
+    border-radius: 8px;
+  }
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,0.6);
+    clip-path: polygon(30% 20%, 30% 80%, 80% 50%);
+  }
+  .duration {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+  <a href="https://wait-page.eu/a/31lj2hmLRf2QQM" target="_blank" class="video-wrapper">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD6VFhm-FCBmzl2-1C3lZUAkKYra4uqrXKTQ&s" alt="Thumbnail">
+    <div class="play-button"></div>
+    <div class="duration">10:22</div>
+  </a>
+</body>
+</html>
